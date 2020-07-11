@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "58664899508",
+    "firebase_url": "https://walksafeapp-2020.firebaseio.com",
+    "project_id": "walksafeapp-2020",
+    "storage_bucket": "walksafeapp-2020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58664899508:android:04e91f5a09b4bc495798e1",
+        "android_client_info": {
+          "package_name": "com.example.walksafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58664899508-h5qmibmhhv4o76af6hmkmt5huoj4ikh1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuU-luMqUMsUPoda6RY0sw7WMMZf2RG_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58664899508-h5qmibmhhv4o76af6hmkmt5huoj4ikh1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

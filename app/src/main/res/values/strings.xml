@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">WalkSafe</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="account">Do not have an account? </string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="password_confirm">Confirm Password</string>
+    <string name="instruction">Instruction</string>
+    <string name="milestones">Milestones</string>
+    <string name="about_us">About Us</string>
+    <string name="selectImage">Upload Image</string>
+</resources>

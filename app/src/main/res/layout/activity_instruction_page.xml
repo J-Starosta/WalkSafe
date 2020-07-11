@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:background="@color/purple"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/purple"
+        tools:context=".instructionPage">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+                <ImageView
+                    android:id="@+id/Step1imageView"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:contentDescription="@string/app_name"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/card"
+                    />
+
+                <TextView
+                    android:id="@+id/Step1textView"
+                    android:layout_width="258dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"
+                    android:text="TextView"
+                    android:textSize="14sp"
+                    app:layout_constraintStart_toEndOf="@+id/Step2imageView"
+                    app:layout_constraintTop_toBottomOf="@+id/Step1Description" />
+            </TableRow>
+
+            <TableRow>
+                <ImageView
+                    android:id="@+id/Step2imageView"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:contentDescription="@string/app_name"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/crossing"
+                    />
+                <TextView
+                    android:id="@+id/Step2textView"
+                    android:layout_width="258dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="TextView"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    app:layout_constraintStart_toEndOf="@+id/Step2imageView"
+                    app:layout_constraintTop_toBottomOf="@+id/Step1Description"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <ImageView
+                    android:id="@+id/Step3imageView"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:contentDescription="@string/app_name"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/card"
+                    />
+
+                <TextView
+                    android:id="@+id/Step3textView"
+                    android:layout_width="258dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="TextView"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    app:layout_constraintStart_toEndOf="@+id/Step2imageView"
+                    app:layout_constraintTop_toBottomOf="@+id/Step1Description" />
+            </TableRow>
+
+            <TableRow>
+                <ImageView
+                    android:id="@+id/Step4imageView"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:contentDescription="@string/app_name"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/transport"
+                    />
+
+                <TextView
+                    android:id="@+id/Step4textView"
+                    android:layout_width="258dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="TextView"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    app:layout_constraintStart_toEndOf="@+id/Step2imageView"
+                    app:layout_constraintTop_toBottomOf="@+id/Step1Description" />
+            </TableRow>
+
+            <TableRow>
+                <ImageView
+                    android:id="@+id/andante"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="90dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/Step4imageView"
+                    app:srcCompat="@drawable/andante" />
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="234dp"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="100dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/andante"
+                    app:layout_constraintTop_toBottomOf="@+id/Step4imageView"
+                    app:srcCompat="@drawable/walksafe" />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+
